@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.firoz.animation.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/head1"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/moveleft"
+        android:layout_alignStart="@+id/moveleft"
+        android:id="@+id/ivhead"
+        android:layout_x="121dp"
+        android:layout_y="123dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/left_hand"
+        android:layout_x="118dp"
+        android:layout_y="211dp"
+        android:id="@+id/ivlefthand" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/left_leg"
+        android:layout_x="136dp"
+        android:layout_y="266dp"
+        android:id="@+id/ivleftleg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/stomach"
+        android:id="@+id/ivstomach"
+        android:layout_below="@+id/ivhead"
+        android:layout_centerHorizontal="true"
+        android:layout_x="141dp"
+        android:layout_y="203dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/right_hand"
+        android:layout_x="170dp"
+        android:layout_y="216dp"
+        android:id="@+id/ivrighthand" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/right_leg"
+        android:layout_x="162dp"
+        android:layout_y="263dp"
+        android:id="@+id/ivrightleg" />
+
+    <Button
+        android:text="Left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/moveleft"
+        android:layout_x="81dp"
+        android:layout_y="430dp" />
+
+    <Button
+        android:text="Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="430dp"
+        android:id="@+id/moveright" />
+
+</AbsoluteLayout>
